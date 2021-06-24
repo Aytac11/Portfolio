@@ -44,7 +44,7 @@
     
     nav .mainMenu li a {
         display: inline-block;
-        padding: 15px;
+        padding: 14px;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 16px;
@@ -303,6 +303,56 @@
         color: #999999;
         font-size: 12px;
         text-align: justify;
+    }
+    /* -------------skils----------- */
+    
+    .skills {
+        margin-bottom: 40px;
+    }
+    
+    .skills h1 {
+        text-align: center;
+    }
+    
+    .skills h3 {
+        font-weight: 300;
+        font-style: italic;
+        padding-bottom: 10px;
+    }
+    
+    #myProgress {
+        width: 100%;
+    }
+    
+    .myBar {
+        height: 3px;
+        background-color: #3e64ff;
+        margin-bottom: 40px;
+        border-radius: 50px;
+    }
+    
+    .html {
+        width: 85%;
+    }
+    
+    .css {
+        width: 80%;
+    }
+    
+    .js {
+        width: 50%;
+    }
+    
+    .bootstrap {
+        width: 90%;
+    }
+    
+    .figma {
+        width: 80%;
+    }
+    
+    .ap {
+        width: 80%;
     }
     /* ---------------projects---------------- */
     
@@ -644,6 +694,9 @@
         }
         h1 {
             padding-bottom: 50px;
+        }
+        .skills {
+            margin-bottom: 90px;
         }
         .contact__item i {
             font-size: 30px;
